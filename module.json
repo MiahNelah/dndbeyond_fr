@@ -1,0 +1,50 @@
+{
+  "id": "dndbeyond_fr",
+  "title": "D&D Beyond (FR)",
+  "description": "Traduction FR du contenu D&D Beyond",
+  "version": "1.0.0",
+  "authors": [
+      {
+          "name": "Miah Nelah",
+          "discord": "Miah Nelah#5991"
+      }
+  ],
+  "flags": {},
+  "minimumCoreVersion": "10",
+  "compatibility": {
+      "minimum": "10",
+      "verified": "10"
+  },
+  "relationships": {
+    "systems": [
+      {      	
+        "type": "system",
+        "id": "dnd5e"
+      }
+    ],
+    "requires": [
+    	{    		
+	      "type": "module",
+	      "id": "babele"
+	    },
+	    {
+	      "type": "module",
+	      "id": "lib-wrapper"
+	    },   
+	    {
+	      "type": "module",
+	      "id": "dnd5e_fr-FR"
+	    },    
+	    {
+	      "type": "module",
+	      "id": "dndbeyond"
+	    }
+    ]
+  },
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "download": "https://github.com/Daimakaicho/dndbeyond_fr/releases/download/1.0.0/dndbeyond_fr.zip",
+  "manifest": "https://github.com/Daimakaicho/dndbeyond_fr/releases/download/1.0.0/module.json",
+  "url": "https://github.com/Daimakaicho/dndbeyond_fr"
+}
